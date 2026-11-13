@@ -6,13 +6,13 @@
 
 ## 0. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Mã đề (A/B/C):
-- Email:
-- Link repository:
-- Giờ bắt đầu:
-- Giờ kết thúc:
+- Họ tên:Tạ Xuân Anh Vũ
+- MSSV:2A202603173
+- Mã đề (A/B/C):B
+- Email:anhvudepzai211104@gmail.com
+- Link repository:https://github.com/AnhVuTaXuan/K5-L2-DAY05-TaXuanAnhVu-2A202603173-MOTTracking
+- Giờ bắt đầu:16h30
+- Giờ kết thúc:19h30
 
 ## 1. Xem trước đoạn video (CP0)
 
@@ -20,11 +20,11 @@ Ghi **trước khi vẽ**, mỗi người một dòng.
 
 | Mã | Frame xuất hiện | Frame cuối thấy được | Rẽ / dừng / đổi tốc độ ở frame | Bị che ở frame | Ghi chú |
 |---|---|---|---|---|---|
-| P1 | | | | | |
-| P2 | | | | | |
-| P3 | | | | | |
-| P4 | | | | | |
-| P5 | | | | | |
+| P1 |0 |150 | |39-> 49 | |
+| P2 |0 |150 | |Không bị | |
+| P3 |40 |150 | | | |
+| P4 |0 |146 | |111->135,147->150  | |
+| P5 |2 |104| | | |
 
 ## 2. Keyframe và thời gian (CP1, CP4)
 
@@ -94,16 +94,17 @@ Lỗi nào chỉ lượt 2 (theo cảnh) mới thấy, lượt 1 (theo người)
 
 | Kiểm tra | Kết quả |
 |---|---|
-| Tên file MOT 1.1 | |
-| Tên file CVAT for video 1.1 | |
-| Số track ID khác nhau trong `gt/gt.txt` (phải là 5) | |
-| Frame `outside` không có dòng trong `gt.txt` (đúng / sai) | |
-| Job đã completed trên CVAT máy cá nhân | |
+| Tên file MOT 1.1 |TaXuanAnhVu_mot.zip |
+| Tên file CVAT for video 1.1 |TaXuanAnhVu_cvat_video.zip |
+| Số track ID khác nhau trong `gt/gt.txt` (phải là 5) |5 |
+| Frame `outside` không có dòng trong `gt.txt` (đúng / sai) |Đúng |
+| Job đã completed trên CVAT máy cá nhân |Đúng |
 
 Dán phần tóm tắt in ra từ `src/check_submission.py`:
 
-```text
-...
+```=== Tóm tắt ===
+  Lỗi: 0   |   Cảnh báo: 0
+  Đạt. Dán phần tóm tắt này vào báo cáo mục 5.
 ```
 
 ## 6. Ba câu kết
